@@ -186,6 +186,12 @@ a {
   color: #96a9c2;
 }
 
+.disclaimer {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #7f96b5;
+}
+
 .roadmap-card ol {
   padding-left: 20px;
 }
