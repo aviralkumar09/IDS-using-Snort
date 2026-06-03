@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDS Using Snort - Secure Access</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark">IDS</span>
+        <div>
+          <p class="brand-title">Development of Intrusion Detection System</p>
+          <p class="brand-subtitle">Powered by Snort</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="#access">Login / Register</a>
+        <a href="next-step.html">Next Step</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Cybersecurity Engineering Portal</p>
+          <h1>Secure access for the IDS development workspace.</h1>
+          <p class="hero-text">
+            Centralize authentication, project onboarding, and next-step guidance
+            for building a reliable Snort-based intrusion detection system.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#access">Get Started</a>
+            <a class="ghost-btn" href="next-step.html">View Next Step</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Security Snapshot</h2>
+          <ul>
+            <li>Real-time traffic monitoring dashboard</li>
+            <li>Rule tuning &amp; alert triage workflows</li>
+            <li>Threat intel alignment for IDS policies</li>
+            <li>Response-ready escalation checklist</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="access" class="access">
+        <div class="section-heading">
+          <h2>Login or Register</h2>
+          <p>
+            Start by signing in to the project workspace or create a new account
+            to access the next implementation steps.
+          </p>
+        </div>
+        <div class="forms-grid">
+          <form class="card form-card" action="next-step.html">
+            <h3>Login</h3>
+            <label>
+              Email Address
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Password
+              <input type="password" name="password" placeholder="••••••••" required />
+            </label>
+            <button class="primary-btn" type="submit">Sign In</button>
+            <p class="form-note">Use your secure project credentials.</p>
+          </form>
+
+          <form class="card form-card" action="next-step.html">
+            <h3>Register</h3>
+            <label>
+              Full Name
+              <input type="text" name="fullName" placeholder="Your name" required />
+            </label>
+            <label>
+              Email Address
+              <input type="email" name="registerEmail" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Create Password
+              <input type="password" name="registerPassword" placeholder="Create a strong password" required />
+            </label>
+            <button class="primary-btn" type="submit">Create Account</button>
+            <p class="form-note">We recommend MFA for production use.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>IDS Using Snort &mdash; Secure by design.</p>
+    </footer>
+  </body>
+</html>

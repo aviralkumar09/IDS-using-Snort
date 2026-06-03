@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDS Using Snort - Next Step</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark">IDS</span>
+        <div>
+          <p class="brand-title">Development of Intrusion Detection System</p>
+          <p class="brand-subtitle">Powered by Snort</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html#access">Login / Register</a>
+        <a href="next-step.html">Next Step</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <section class="hero hero-compact">
+        <div>
+          <p class="eyebrow">Next Step</p>
+          <h1>Build the IDS deployment workflow.</h1>
+          <p class="hero-text">
+            Follow the guided phases below to install Snort, configure rules,
+            validate alerts, and document your incident response plan.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#roadmap">View Roadmap</a>
+            <a class="ghost-btn" href="index.html#access">Back to Access</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Project Status</h2>
+          <ul>
+            <li>Authentication setup complete</li>
+            <li>IDS design ready for implementation</li>
+            <li>Rule strategy aligned to threat model</li>
+            <li>Validation checklist pending</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="roadmap" class="roadmap">
+        <div class="section-heading">
+          <h2>Implementation Roadmap</h2>
+          <p>Use this checklist to track the next steps of the IDS project.</p>
+        </div>
+        <div class="card roadmap-card">
+          <ol>
+            <li>
+              <strong>Environment Setup:</strong> Provision Ubuntu, install Snort,
+              and validate network interfaces for monitoring.
+            </li>
+            <li>
+              <strong>Rule Management:</strong> Enable community rules, add custom
+              signatures, and tune detection thresholds.
+            </li>
+            <li>
+              <strong>Alert Pipeline:</strong> Forward alerts to a SIEM or log
+              store, define severity levels, and test alert routing.
+            </li>
+            <li>
+              <strong>Response Playbooks:</strong> Draft IR steps for common
+              attack patterns and map escalation contacts.
+            </li>
+            <li>
+              <strong>Validation:</strong> Run traffic simulations to verify
+              detection, reduce false positives, and document findings.
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Continue in the security lab to finalize your Snort-based IDS.</p>
+    </footer>
+  </body>
+</html>
